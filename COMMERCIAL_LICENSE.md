@@ -1,4 +1,4 @@
-# License for Idle Magician Academy
+# Commercial License for Idle Magician Academy
 
 ## Overview
 
