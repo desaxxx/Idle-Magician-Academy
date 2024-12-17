@@ -1,0 +1,99 @@
+spell_order:
+  - FIREBALL
+  - SHIELD
+  - ARCANE_SURGE
+  - HEALING_LIGHT
+  - MYSTIC_BARRAGE
+  - MANA_STORM
+  - CELESTIAL_BARRIER
+  - PHOENIX_REBIRTH
+#
+spells:
+  FIREBALL:
+    name: Fireball
+    description: A powerful fire spell that launches a ball of fire.
+    mana_cost: 50
+    cooldown: 30
+    learn_requirements:
+      level: 0
+      knowledge: 50
+    earn:
+      knowledge: 15-20
+      xp: 20-25
+  SHIELD:
+    name: Shield
+    description: Protects the user with a magical shield.
+    mana_cost: 40
+    cooldown: 20
+    learn_requirements:
+      level: 1
+      knowledge: 300
+    earn:
+      knowledge: 15-20
+      xp: 16-20
+  ARCANE_SURGE:
+    name: Arcane Surge
+    description: Unleashes a surge of magical energy, damaging nearby enemies.
+    mana_cost: 60
+    cooldown: 40
+    learn_requirements:
+      level: 2
+      knowledge: 500
+    earn:
+      knowledge: 20-25
+      xp: 25-30
+  HEALING_LIGHT:
+    name: Healing Light
+    description: Calls upon radiant light to restore health to the caster and nearby allies.
+    mana_cost: 50
+    cooldown: 35
+    learn_requirements:
+      level: 3
+      knowledge: 700
+    earn:
+      knowledge: 25-30
+      xp: 30-35
+  MYSTIC_BARRAGE:
+    name: Mystic Barrage
+    description: Summons a barrage of mystical projectiles that seek out enemies.
+    mana_cost: 80
+    cooldown: 45
+    learn_requirements:
+      level: 4
+      knowledge: 1000
+    earn:
+      knowledge: 30-35
+      xp: 35-40
+  MANA_STORM:
+    name: Mana Storm
+    description: Summons a storm of arcane energy, dealing damage over time in an area.
+    mana_cost: 100
+    cooldown: 60
+    learn_requirements:
+      level: 5
+      knowledge: 1500
+    earn:
+      knowledge: 35-40
+      xp: 40-45
+  CELESTIAL_BARRIER:
+    name: Celestial Barrier
+    description: Creates a divine barrier that absorbs damage for a short time.
+    mana_cost: 90
+    cooldown: 50
+    learn_requirements:
+      level: 6
+      knowledge: 2000
+    earn:
+      knowledge: 40-45
+      xp: 45-50
+  PHOENIX_REBIRTH:
+    name: Phoenix Rebirth
+    description: Grants temporary invulnerability and restores a portion of health upon activation.
+    mana_cost: 120
+    cooldown: 75
+    learn_requirements:
+      level: 7
+      knowledge: 2500
+    earn:
+      knowledge: 50-55
+      xp: 55-60

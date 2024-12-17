@@ -1,0 +1,17 @@
+name: MagicianAcademy
+version: '1.0'
+main: org.nandayo.magicianAcademy
+api-version: '1.21'
+authors: [ yoshii01 ]
+commands:
+  magicianacademy:
+    aliases:
+      - ma
+      - academy
+    usage: /ma
+    description: Just a command.
+  amagicianacademy:
+    aliases:
+      - ama
+    usage: /ama
+    description: Admin command.

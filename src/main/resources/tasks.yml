@@ -1,0 +1,56 @@
+#task types:
+#  SPELL_CAST, MANA_USE, MANA_COLLECT, KNOWLEDGE_EARN, SPELL_LEARN
+task_order:
+  - COLLECT_MANA_50
+  - USE_MANA_100
+  - LEARN_SPELL_1
+  - EARN_KNOWLEDGE_300
+  - CAST_SPELL_10
+#
+tasks:
+  COLLECT_MANA_50:
+    name: Collect 50 Mana Crystals
+    task_type: MANA_COLLECT
+    required: 50
+    rewards:
+      mana: 100
+      xp: 20
+    duration_s: 10
+    #minutes
+    redo_after: 1
+  USE_MANA_100:
+    name: Use 100 Mana Crystals
+    task_type: MANA_USE
+    required: 100
+    rewards:
+      knowledge: 50
+      xp: 25
+    duration_s: 40
+    redo_after: 2
+  LEARN_SPELL_1:
+    name: Learn a New Spell
+    task_type: SPELL_LEARN
+    required: 1
+    rewards:
+      mana: 100
+      xp: 40
+    duration_s: 10
+    redo_after: 2
+  EARN_KNOWLEDGE_300:
+    name: Earn 300 Knowledge Points
+    task_type: KNOWLEDGE_EARN
+    required: 300
+    rewards:
+      mana: 200
+      xp: 60
+    duration_s: 50
+    redo_after: 2
+  CAST_SPELL_10:
+    name: Cast 10 Spells
+    task_type: SPELL_CAST
+    required: 10
+    rewards:
+      mana: 150
+      xp: 150
+    duration_s: 90
+    redo_after: 2

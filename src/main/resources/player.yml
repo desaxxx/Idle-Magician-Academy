@@ -1,0 +1,25 @@
+role: "STUDENT"
+rank: "UNRANKED"
+xp: 2500
+total_xp: 50000
+level: 4
+knowledge: 1000
+accumulated_mana: 50
+mana: 100
+spells:
+  learned:
+    - FIREBALL
+  last_casted:
+    FIREBALL: "01/12/24 15:11:03"
+tasks:
+  active: "USE_MANA_100"
+  progress: 10
+  start_date: "11/29/24 15:43:40"
+  completed:
+    MANA_COLLECT_50: "12/06/24 16:49:23"
+statics:
+  spell_casted_FIREBALL: 10
+  spell_casted_SHIELD: 7
+  task_completed_MANA_COLLECT_50: 2
+  mana_used: 100
+  mana_collected: 150

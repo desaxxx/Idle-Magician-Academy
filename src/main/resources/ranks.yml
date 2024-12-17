@@ -1,0 +1,129 @@
+rank_order:
+  - UNRANKED
+  - NOVICE-1
+  - NOVICE-2
+  - NOVICE-3
+  - APPRENTICE-1
+  - APPRENTICE-2
+  - APPRENTICE-3
+  - SCHOLAR-1
+  - SCHOLAR-2
+  - SCHOLAR-3
+  - MASTER-1
+  - MASTER-2
+  - MASTER-3
+#
+ranks:
+  UNRANKED:
+    name: Unranked
+    title: "&8UNRANKED"
+    mana_limit: 500
+    mana_accumulate_limit: 200
+  NOVICE-1:
+    name: Novice ★
+    title: "<#eaf193>Novice <#93c7f1>★"
+    requirements:
+      level: 0
+      knowledge: 150
+      mana: 499
+    mana_limit: 800
+    mana_accumulate_limit: 400
+  NOVICE-2:
+    name: Novice ★★
+    title: "<#eaf193>Novice <#93c7f1>★<#9398f1>★"
+    requirements:
+      level: 2
+      knowledge: 500
+      mana: 799
+    mana_limit: 900
+    mana_accumulate_limit: 450
+  NOVICE-3:
+    name: Novice ★★★
+    title: "<#eaf193>Novice <#93c7f1>★<#9398f1>★<#bd93f1>★"
+    requirements:
+      level: 4
+      knowledge: 1200
+      mana: 899
+    mana_limit: 1000
+    mana_accumulate_limit: 550
+  APPRENTICE-1:
+    name: Apprentice ★
+    title: "<#8ed039>Apprentice <#93c7f1>★"
+    requirements:
+      level: 6
+      knowledge: 1800
+      mana: 999
+    mana_limit: 1200
+    mana_accumulate_limit: 650
+  APPRENTICE-2:
+    name: Apprentice ★★
+    title: "<#8ed039>Apprentice <#93c7f1>★<#9398f1>★"
+    requirements:
+      level: 8
+      knowledge: 2500
+      mana: 1199
+    mana_limit: 1450
+    mana_accumulate_limit: 750
+  APPRENTICE-3:
+    name: Apprentice ★★★
+    title: "<#8ed039>Apprentice <#93c7f1>★<#9398f1>★<#bd93f1>★"
+    requirements:
+      level: 10
+      knowledge: 3200
+      mana: 1449
+    mana_limit: 1700
+    mana_accumulate_limit: 900
+  SCHOLAR-1:
+    name: Scholar ★
+    title: "<#3996e5>Scholar <#93c7f1>★"
+    requirements:
+      level: 12
+      knowledge: 4000
+      mana: 1699
+    mana_limit: 2000
+    mana_accumulate_limit: 1100
+  SCHOLAR-2:
+    name: Scholar ★★
+    title: "<#3996e5>Scholar <#93c7f1>★<#9398f1>★"
+    requirements:
+      level: 14
+      knowledge: 5000
+      mana: 1999
+    mana_limit: 2300
+    mana_accumulate_limit: 1200
+  SCHOLAR-3:
+    name: Scholar ★★★
+    title: "<#3996e5>Scholar <#93c7f1>★<#9398f1>★<#bd93f1>★"
+    requirements:
+      level: 16
+      knowledge: 6100
+      mana: 2299
+    mana_limit: 2600
+    mana_accumulate_limit: 1350
+  MASTER-1:
+    name: Master ★
+    title: "<#e03d77>Master <#93c7f1>★"
+    requirements:
+      level: 18
+      knowledge: 7500
+      mana: 2599
+    mana_limit: 3000
+    mana_accumulate_limit: 1550
+  MASTER-2:
+    name: Master ★★
+    title: "<#e03d77>Master <#93c7f1>★<#9398f1>★"
+    requirements:
+      level: 20
+      knowledge: 9100
+      mana: 2999
+    mana_limit: 3400
+    mana_accumulate_limit: 1800
+  MASTER-3:
+    name: Master ★★★
+    title: "<#e03d77>Master <#93c7f1>★<#9398f1>★<#bd93f1>★"
+    requirements:
+      level: 22
+      knowledge: 10400
+      mana: 3399
+    mana_limit: 3800
+    mana_accumulate_limit: 2000
